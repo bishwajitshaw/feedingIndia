@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+/* main styling*/
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+   
+}
+.cuntainer{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+h1{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+#navbar{
+    background: #333;
+    color: white;
+    overflow: auto;
+} 
+#navbar .logo a{
+    color: white;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover, 
+#navbar ul li .current{
+    background: #444;
+    color: #f7c08a;
+}
+
+#showcase{
+    background: url('resource/dog1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 650px;
+}
+#showcase .showcase-content {
+    
+    color: white;
+    line-height: 1.7em;
+}
+#showcase .showcase-content h1{
+    padding-top: 100px;
+    font-size: 30px;
+
+}
+#showcase .text-primary{
+    color: orange;
+}
+#showcase .lead {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.about-btn{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: rgb(54, 34, 34);
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 5px;   
+}
+.donation-use{
+    padding-top: 10px;
+    margin-top: -30px;
+}
+
+#uses{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    height: 1300px;
+}
+
+#uses .donation-use{
+    margin-top: 30px;
+}
+#uses .donation-work{
+    margin-bottom: 50px;
+}
+.or{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 15px;
+	margin: 15px 0 20px;
+}
+
+.or .line{
+	width: 370px;
+	height: 2px;
+    background: #efefef;
+    color: black;
+}
+
+ .or p{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifj;
+	color: rgb(12, 11, 11);
+	font-size: 30px;
+}
+
+.help {
+    margin-top: 30px;
+    border: 1px ;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+.can-help .help1{
+    background: url("/resource/11.jpg") no-repeat center center/cover;
+    width: 47%;
+    float: left;
+    
+}
+.can-help .help2{
+    background: url("/resource/2.jpg") no-repeat center center/cover;
+    width: 47%;
+    float: right;
+}
+
+
+.can-help .help3{
+    background: url("/resource/3.jpg") no-repeat center center/cover;
+    width: 47%;
+    float: left;
+    
+}
+.can-help .help4{
+    background: url("/resource/4.jpg") no-repeat center center/cover;
+    width: 47%;
+    float: right;
+}
+
+.about-help {
+    border: black solid 3px;
+    
+    height: 40px;
+}
+
+.about-help1{
+    width: 25%;
+    margin-left: 120px;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-help2{
+    width: 25%;
+    margin-right: 120px;
+    float: right;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ 
+
+  /*Footer for all page*/
+  
+  .footer-side{
+    
+    text-align: center;
+    background: #333;
+    color: white;
+    font-size: 14px;
+  }
+  
