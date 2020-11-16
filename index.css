@@ -60,7 +60,7 @@ p{
 }
 
 #showcase{
-    background: url('resource/dog1.jpg') no-repeat center center/cover;
+    background: url('image/dog1.jpg') no-repeat center center/cover;
     width: 100%;
     height: 650px;
 }
@@ -140,26 +140,26 @@ p{
     border-radius: 5px;
 }
 .can-help .help1{
-    background: url("/resource/11.jpg") no-repeat center center/cover;
+    background: url("image/11.jpg") no-repeat center center/cover;
     width: 47%;
     float: left;
     
 }
 .can-help .help2{
-    background: url("/resource/2.jpg") no-repeat center center/cover;
+    background: url("image/2.jpg") no-repeat center center/cover;
     width: 47%;
     float: right;
 }
 
 
 .can-help .help3{
-    background: url("/resource/3.jpg") no-repeat center center/cover;
+    background: url("image/3.jpg") no-repeat center center/cover;
     width: 47%;
     float: left;
     
 }
 .can-help .help4{
-    background: url("/resource/4.jpg") no-repeat center center/cover;
+    background: url("image/4.jpg") no-repeat center center/cover;
     width: 47%;
     float: right;
 }
